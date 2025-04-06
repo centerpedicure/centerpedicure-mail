@@ -6,7 +6,7 @@ import cors from "cors";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const allowedOrigin = "http://127.0.0.1:5500";
+const allowedOrigin = "центр-педикюра-1.рф";
 
 app.use(
   cors({
